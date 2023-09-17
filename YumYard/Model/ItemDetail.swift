@@ -11,6 +11,7 @@ struct ItemDetail: View {
     let item: MenuItem
     
     @EnvironmentObject var order: Order
+    @State private var showToast = false
     
     var body: some View {
         VStack {
@@ -32,10 +33,12 @@ struct ItemDetail: View {
             
             Button("Order This") {
                 order.add(item: item)
+                showToast.toggle()
             }
             .buttonStyle(.borderedProminent)
             
             Spacer()
+                ToastMessageView(showToast: $showToast, message: "Added to order ✅")
         }
         .navigationTitle(item.name)
         .navigationBarTitleDisplayMode(.inline)

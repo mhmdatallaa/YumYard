@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6D1B54382AB748EF003BFC1E /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B54372AB748EF003BFC1E /* OrderView.swift */; };
 		6D1B543A2AB74AC3003BFC1E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B54392AB74AC3003BFC1E /* MainView.swift */; };
+		6D1B543C2AB74DBE003BFC1E /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B543B2AB74DBE003BFC1E /* CheckoutView.swift */; };
 		6D98A6882AB7216C00DE19EF /* YumYardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D98A6872AB7216C00DE19EF /* YumYardApp.swift */; };
 		6D98A68A2AB7216C00DE19EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D98A6892AB7216C00DE19EF /* ContentView.swift */; };
 		6D98A68C2AB7216E00DE19EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D98A68B2AB7216E00DE19EF /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		6D1B54372AB748EF003BFC1E /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		6D1B54392AB74AC3003BFC1E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6D1B543B2AB74DBE003BFC1E /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		6D98A6842AB7216C00DE19EF /* YumYard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YumYard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D98A6872AB7216C00DE19EF /* YumYardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumYardApp.swift; sourceTree = "<group>"; };
 		6D98A6892AB7216C00DE19EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				6D98A69B2AB722C700DE19EF /* menu.json */,
 				6D98A6892AB7216C00DE19EF /* ContentView.swift */,
 				6D1B54392AB74AC3003BFC1E /* MainView.swift */,
+				6D1B543B2AB74DBE003BFC1E /* CheckoutView.swift */,
 				6D98A6A12AB7381400DE19EF /* ItemDetail.swift */,
 				6D1B54372AB748EF003BFC1E /* OrderView.swift */,
 				6D98A69F2AB730E900DE19EF /* ItemRow.swift */,
@@ -164,6 +167,7 @@
 			files = (
 				6D98A6A22AB7381400DE19EF /* ItemDetail.swift in Sources */,
 				6D1B543A2AB74AC3003BFC1E /* MainView.swift in Sources */,
+				6D1B543C2AB74DBE003BFC1E /* CheckoutView.swift in Sources */,
 				6D1B54382AB748EF003BFC1E /* OrderView.swift in Sources */,
 				6D98A68A2AB7216C00DE19EF /* ContentView.swift in Sources */,
 				6D98A6882AB7216C00DE19EF /* YumYardApp.swift in Sources */,
